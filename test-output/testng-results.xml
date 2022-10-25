@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-24T22:19:09 MYT" name="Default suite" finished-at="2022-10-24T22:19:29 MYT" duration-ms="20215">
+    <groups>
+    </groups>
+    <test started-at="2022-10-24T22:19:09 MYT" name="Default test" finished-at="2022-10-24T22:19:29 MYT" duration-ms="20215">
+      <class name="SeleniumFramework.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:SeleniumFramework.HomePage@1522d8a0]" started-at="2022-10-24T22:19:09 MYT" name="initialize" finished-at="2022-10-24T22:19:20 MYT" duration-ms="10660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.HomePage@1522d8a0]" started-at="2022-10-24T22:19:20 MYT" name="HomePage" data-provider="getData" finished-at="2022-10-24T22:19:25 MYT" duration-ms="5227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmailcom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1232323]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="HomePage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.HomePage@1522d8a0]" started-at="2022-10-24T22:19:25 MYT" name="HomePage" data-provider="getData" finished-at="2022-10-24T22:19:29 MYT" duration-ms="3952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[348478]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.HomePage@1522d8a0]" started-at="2022-10-24T22:19:29 MYT" name="teardown" finished-at="2022-10-24T22:19:29 MYT" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumFramework.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

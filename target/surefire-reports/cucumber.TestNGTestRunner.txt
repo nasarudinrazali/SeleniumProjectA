@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 52.599 s <<< FAILURE! - in cucumber.TestNGTestRunner
+runScenario(cucumber.TestNGTestRunner)  Time elapsed: 27.17 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Homepage is displayed' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Homepage is displayed")
+public void homepage_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(cucumber.TestNGTestRunner)  Time elapsed: 16.172 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Homepage is displayed' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Homepage is displayed")
+public void homepage_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
