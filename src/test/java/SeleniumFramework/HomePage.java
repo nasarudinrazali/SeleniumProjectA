@@ -72,7 +72,7 @@ public class HomePage extends base  { // we use the extends keyword to call the 
 		ff.getEmail().sendKeys("asdsdd@gmail.com");
 		ff.sendMeInstructions().click();
 		System.out.println("Aku sayang Kamooo Test");
-		
+		System.out.println("Aku tidak gatal");
 		
 		
 	}											
